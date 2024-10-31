@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#break-session-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 4rem;
+}
+
+.increment-decrement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.2rem;
+    font-size: 1.4rem;
+    gap: 1rem;
+}
+
+.increment,
+.decrement {
+    width: 6rem;
+    font-size: 1rem;
+}
+
+#timer{
+    width: 15rem;
+    text-align: center;
+    margin: 2rem auto 0 auto;
+    padding: 2rem;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+}
+
+#timer-label{
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+
+#time-left{
+    font-size: 2rem;
+}
+
+#buttons-container{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+#start_stop,
+#reset{
+    width: 6rem;
+    margin: 5px;
+}
